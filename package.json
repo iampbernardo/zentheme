@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "clean": "rm -r dist && mkdir dist && mkdir css"
+    "clean": "rm -r dist && mkdir dist && mkdir css",
+    "watch-less": "less-watch-compiler"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,7 @@
   },
   "devDependencies": {
     "less": "~3.5.2",
-    "watchify": "~3.11.0"
+    "watchify": "~3.11.0",
+    "less-watch-compiler": "~1.11.3"
   }
 }
