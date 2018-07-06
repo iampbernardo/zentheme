@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "clean": "rm -r dist && mkdir dist"
+    "clean": "rm -r dist && mkdir dist && mkdir css"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,7 @@
     "url": "https://github.com/iampbernardo/zentheme/issues"
   },
   "devDependencies": {
-    "less": "~3.5.2"
+    "less": "~3.5.2",
+    "watchify": "~3.11.0"
   }
 }
